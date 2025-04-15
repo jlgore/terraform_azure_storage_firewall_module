@@ -1,4 +1,4 @@
-# Testing the Azure Storage Account Firewall Policy Module
+# Azure Storage Account Firewall Policy Module
 
 This Terraform configuration provides examples for testing the Azure Storage Account Firewall Policy module in two scenarios:
 

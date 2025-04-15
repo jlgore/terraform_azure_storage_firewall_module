@@ -1,31 +1,3 @@
-##################################################
-# outputs.tf
-##################################################
-
-output "resource_group_name" {
-  description = "The name of the resource group"
-  value       = local.resource_group_name
-}
-
-output "storage_account_id" {
-  description = "The ID of the storage account"
-  value       = local.storage_account_id
-}
-
-output "policy_definition_id" {
-  description = "The ID of the policy definition"
-  value       = azurerm_policy_definition.storage_firewall_ips.id
-}
-
-output "policy_assignment_id" {
-  description = "The ID of the policy assignment"
-  value       = azurerm_resource_policy_assignment.storage_firewall_policy.id
-}
-
-##################################################
-# README.md
-##################################################
-
 # Azure Storage Account Firewall Policy Module
 
 This Terraform module helps manage Azure Storage Account Firewalls at scale using Azure Policy. It allows you to:
